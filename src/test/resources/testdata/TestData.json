@@ -1,0 +1,16 @@
+{
+  "totalSubscriptionPlan": 7,
+  "email": "",
+  "subscriptionEmail": "noreply@euronews.com",
+  "subscriptionMsg": "You are unsubscribed.",
+  "projectName": "Database",
+  "methodName": "testing.testcase.DBTest",
+  "environment": "windows",
+  "projectId": 1,
+  "sessionId": 1,
+  "getTableRecords": 10,
+  "getRecord": 1,
+  "totalTableRecords": 345,
+  "authorName": "tanvir",
+  "userName": "tanvir3"
+}

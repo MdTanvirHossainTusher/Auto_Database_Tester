@@ -1,0 +1,5 @@
+{
+  "mainUrl": "https://www.euronews.com/",
+  "apiUrl": "https://gmail.googleapis.com/",
+  "googleAuthUrl": "https://oauth2.googleapis.com/token"
+}
