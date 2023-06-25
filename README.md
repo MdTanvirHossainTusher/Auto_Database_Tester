@@ -13,7 +13,16 @@ record in the database. After this, I did some certain operatino such as add, up
    version no.
 
 3. Add you Gmail credentials on `ClientCredentials.java` file.
+
 4. Add database name and authenticators on `ConfigData.json` which is located here - `src/test/resources/testdata/ConfigData.json`.
+
 5. Run the `WebApiTest.java` testcase first.
+
 6. Check whether a record with the information of `WebApiTest.java` testcase added or not. If testcase runs succesfully, a record should be added.
-7. After successfully running `WebApiTest.java`, now run `DBTest.java` file. 
+
+7. After successfully running `WebApiTest.java`, now run `DBTest.java` file.
+
+8. `DBTest.java` will add 10 records from the existing database records which contains repeating digits in it's id. Then update those record's information with the current testcase's data. At the end, it
+   will delete the new added data.
+
+9. Check that only record from point-6 remains as a new entry in the database.
